@@ -1,0 +1,261 @@
+
+p{
+    font-family: 'Rajdhani', sans-serif ;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: darkred;
+    font-family: 'Nova Square', sans-serif;
+}
+
+:root{
+    --red: darkred;
+    --pink: #C67F7F;
+    --white: #ececec;
+    
+    
+}
+
+.imgheader{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)),url(./switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.titolo {
+    letter-spacing: 20px;
+    color: rgb(146, 0, 0);
+    font-weight: 500;
+}
+
+.montagneProfilo {
+    background-image: url(./mountains.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin: 0;
+}
+
+.lead {
+    margin: 100px 10px 200px 10px;
+    position: relative;
+}
+.apici {
+    color: darkred;
+    font-size: 50px;
+    position: absolute;
+}
+#apice1 {
+    top: -30px;
+}
+
+.p-text {
+    height: 400px;
+}
+.box-icon {
+    min-height: 100px;
+}
+.icona-x {
+    color: rgb(180, 0, 0);
+    height: 40px;
+}
+.icone {
+    height: 300px;
+}
+.linea {
+    background-color: rgb(180, 0, 0);
+    height: 5px;
+    max-width: 220px;
+    justify-content: center;
+    align-items: center;
+}
+.testo-icona {
+    min-height: 80px;
+}
+.bordiiconetonde{
+    height: 30px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 3px solid darkred;
+    position: absolute;
+}
+
+.row1{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+.testoaspecchio{
+    text-align: end ;
+}
+
+
+.btn{
+    background-color: darkred;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Titletimeline{
+    margin: 50px;
+    
+}
+.timeline-color{
+    margin: 80px;
+    border-left: 5px solid darkred;
+    padding-left: 30px;
+}
+/* .alberellinerisfocati{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin-right:500px
+} */
+
+    
+
+.Titleteam{
+    padding-top: 100px;
+    padding-left: 30px;
+    color: darkred;
+    background-color: #ececec;
+}
+
+.montagnaimg{
+    display: block;
+    border: 3px solid darkred;
+    padding: 3px;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.imgmontain{
+    margin-top: 20px;
+    height: 25vh;
+    border: 3px solid darkred;
+    padding: 8px;
+}
+.paramontagne{
+    font-size: x-small;
+}
+
+.i{
+    color: darkred;
+}
+
+.imgfondo{
+    margin-top: 20px;
+    height: 35vh;
+    border: 3px solid darkred;
+    
+}
+
+
+
+.divfooter{
+    
+    background-color: darkred;
+    
+    
+}
+
+.imgteam{
+    display: block;
+    
+    border: 3px solid darkred;
+    padding: 3px;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.alberisfondo {
+    background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.111));
+    padding: 0;
+
+
+}
+.bottoneipsum {
+    background-color: darkred;
+    width: 200px;
+    padding: 5px;
+    border: 0;
+    color: white;
+}
+.bottoneipsum:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: darkred;
+}
+/* .timeline-testo {
+     margin: 80px;
+    border-left: 5px solid darkred;
+    padding-left: 30px;
+    width: ;
+} */
+.lineared {
+    border-left: 5px solid darkred;
+    margin: 10px;
+}
+.roundtimeline {
+    position: relative;
+    display: flex;
+}
+
+.roundtimeline::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    left: -25px;
+    background-color: white;
+}
+.bggrey{
+    background-color: #ececec;
+}
+
+/* div{    
+    width:auto;     height:auto;     min-width:1920px;     min-height:1080px;     border:1px solid gray;     background:linear-gradient(white,lightblue);     font-size:20px;
+} */
+
+.bgalberi{
+    background-image: url(./);
+}
+
+.imgsize{
+margin-right: 50px;
+;
+}
+
+.alberirossi{
+    background-color: #ececec;
+    
+}
+
+.imgsize{
+    
+}
+
+.containerpos{
+    margin-bottom: 200px;
+}
+
+
+
